@@ -1,7 +1,6 @@
 ---
 title: "Internship Report"
 output: pdf_document
-bibliography: stage.bib
 ---
 
 # Introduction

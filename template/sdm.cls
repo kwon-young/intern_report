@@ -8,6 +8,10 @@ Université Rennes 1]
 \RequirePackage{fullpage}
 \RequirePackage{graphicx}
 
+% tightlist for markdown
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
 \def\supervisorOne#1{\gdef\@supervisorOne{#1}}
 \def\supervisorTwo#1{\gdef\@supervisorTwo{#1}}
 \def\teamOne#1{\gdef\@teamOne{#1}}

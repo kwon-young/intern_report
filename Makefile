@@ -13,6 +13,14 @@ pdf: $(MARKDOWN) $(TEMPLATE)
 		--toc \
 		$(MARKDOWN)
 	
+plan: ./src/plan.md $(TEMPLATE)
+	pandoc --from markdown --to latex \
+		--template $(TEMPLATE) \
+		--out plan.pdf \
+		--bibliography=$(BIBLIOGRAPHY) \
+		--toc \
+		./src/plan.md
+
 read:
 	okular $(OUTPUT)&
 
